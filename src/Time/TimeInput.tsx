@@ -104,7 +104,8 @@ function TimeInput(
                 : undefined,
             paddingTop: Platform.OS === 'android' ? 10 : undefined,
             paddingBottom: Platform.OS === 'android' ? 0 : undefined,
-            maxWidth: 96
+            maxWidth: 96,
+            textAlign: 'center'
           },
         ]}
         maxFontSizeMultiplier={1.5}
